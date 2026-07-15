@@ -1,3 +1,0 @@
-# AADI Product
-
-Coming soon.
