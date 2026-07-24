@@ -1,6 +1,6 @@
 # AADI Product
 
-Version: 1.0  
+Version: 1.0.1  
 Date: July 2026  
 
 > AI should prepare decisions, not replace human decisions.
@@ -30,7 +30,7 @@ The real challenge is:
 - Understanding what matters.
 - Identifying important signals.
 - Recognizing risks.
-- Comparing possible options.
+- Evaluating possible options.
 - Preparing before decisions become urgent.
 
 AADI aims to become a Decision Preparation Layer between information and human judgment.
@@ -40,7 +40,7 @@ Information
 
 ↓
 
-AADI Decision Preparation
+AADI Decision Preparation Layer
 
 ↓
 
@@ -60,15 +60,18 @@ They fail because:
 - Risks are discovered too late.
 - Cognitive load reduces decision quality.
 
-AADI focuses on reducing cognitive load.
+The problem is not simply information overload.
 
-The goal is not to provide more information.
+The deeper problem is:
 
-The goal is to help people understand:
+> Cognitive overload.
+
+AADI reduces cognitive load by helping people understand:
 
 - What matters most.
 - Why it matters.
 - What risks exist.
+- What options should be considered.
 - What should be prepared next.
 
 ---
@@ -94,6 +97,8 @@ Potential users include:
 - SME Owners
 - Managers
 
+The first true user group remains under validation.
+
 ---
 
 # 5. Core Value Proposition
@@ -102,11 +107,12 @@ AADI provides:
 
 ## Decision Preparation
 
-Not:
+AADI is not:
 
 - AI answers
 - Information summaries
 - Automated decisions
+- General AI assistance
 
 AADI helps users move from:
 
@@ -129,6 +135,10 @@ Decision Readiness
 
 Human Decision
 
+
+The goal is not to replace judgment.
+
+The goal is to improve preparation before judgment.
 
 ---
 
@@ -161,44 +171,51 @@ Humans remain responsible for:
 - Values
 - Trade-offs
 - Final decisions
+- Accountability
 
 ---
 
 # 7. Core Product Workflow
 
-The AADI workflow:
+AADI follows a Decision Preparation workflow:
 
 
 Input Information
 
 ↓
 
-Collect
+Understanding
 
 ↓
 
-Understand
+Reasoning
 
 ↓
 
-Reason
+Priority
 
 ↓
 
-Assess Risks
+Risk Assessment
 
 ↓
 
-Prioritize
+Option Evaluation
 
 ↓
 
-Generate Decision Brief
+Decision Brief
+
+↓
+
+Decision Readiness
 
 ↓
 
 Human Decision
 
+
+Each stage exists to improve decision preparation.
 
 ---
 
@@ -208,13 +225,13 @@ The core output of AADI is the Decision Brief.
 
 A Decision Brief is not:
 
-- A summary
-- A chatbot answer
-- A final recommendation
+- A summary.
+- A chatbot answer.
+- A final recommendation.
 
 A Decision Brief is:
 
-> A structured preparation document that helps humans make better decisions.
+> A structured preparation document that helps humans understand situations and prepare better decisions.
 
 A Decision Brief contains:
 
@@ -247,19 +264,39 @@ Transform fragmented information into structured understanding.
 
 ## Reasoning Support
 
-Help users understand relationships, causes, and possible outcomes.
+Help users understand:
+
+- Relationships.
+- Causes.
+- Possible outcomes.
+- Important assumptions.
 
 ---
 
 ## Risk Assessment
 
-Identify potential risks and uncertainties before decisions are made.
+Identify:
+
+- Potential risks.
+- Uncertainty.
+- Missing information.
+- Possible consequences.
 
 ---
 
 ## Priority Identification
 
-Help users focus attention on the most important issues.
+Help users focus attention on:
+
+- The most important issues.
+- The highest-impact factors.
+- The information that requires further investigation.
+
+---
+
+## Decision Preparation
+
+Help users understand what needs to be considered before making decisions.
 
 ---
 
@@ -275,7 +312,7 @@ AADI MVP focuses on Professional Users.
 
 The goal is:
 
-> Build a product people are willing to open every day before important decisions.
+> Build a product people are willing to open before important decisions.
 
 ---
 
@@ -288,6 +325,26 @@ Examples:
 - Data
 - External information
 - Knowledge sources
+
+---
+
+## MVP Process
+
+
+Information Input
+
+↓
+
+AADI Analysis
+
+↓
+
+Decision Brief
+
+↓
+
+Human Review
+
 
 ---
 
@@ -355,7 +412,7 @@ Enterprise
 
 Long-term vision:
 
-AADI becomes a decision intelligence layer that helps individuals and organizations improve decision quality through better preparation.
+AADI becomes a Decision Intelligence layer that helps individuals and organizations improve decision quality through better preparation.
 
 ---
 
