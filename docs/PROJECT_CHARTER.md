@@ -488,6 +488,8 @@ Do the right thing before doing more things.
 
 Every feature must create decision value.
 
+---
+
 # Product Decision Authority
 
 When conflicts occur:
