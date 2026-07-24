@@ -488,6 +488,17 @@ Do the right thing before doing more things.
 
 Every feature must create decision value.
 
+# Product Decision Authority
+
+When conflicts occur:
+
+1. User Value comes first.
+2. Decision Preparation comes second.
+3. Technology choice comes last.
+
+AADI does not optimize for technical capability.
+
+AADI optimizes for better human decision preparation.
 ---
 
 # 15. Architecture Principle
@@ -537,17 +548,16 @@ Current priority:
 
 README ✅
 
-PROJECT_CHARTER 🚧
+PROJECT_CHARTER ✅
 
-PRODUCT 🚧
+PRODUCT ✅
 
 PRODUCT_PRINCIPLES ✅
 
 DECISION_BRIEF_STANDARD ✅
 
-DECISION_INTELLIGENCE 🚧
-
-ROADMAP 🚧
+DECISION_INTELLIGENCE ✅
+ROADMAP ✅
 
 
 ---
