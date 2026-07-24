@@ -1,6 +1,9 @@
 # Decision Brief Standard (DBS)
 
-Version: 1.0 (Draft)
+Version: 1.0  
+Date: July 2026  
+
+> AI prepares decisions. Humans decide.
 
 ---
 
@@ -10,9 +13,21 @@ The Decision Brief Standard (DBS) defines the minimum structure and quality requ
 
 Its purpose is not to make decisions.
 
-Its purpose is to prepare people to make better decisions.
+Its purpose is:
 
-Every Decision Brief should reduce cognitive load, improve understanding, and increase decision readiness.
+> To prepare people to make better decisions.
+
+Every Decision Brief should:
+
+- Reduce cognitive load.
+- Improve understanding.
+- Clarify risks.
+- Expose uncertainty.
+- Increase decision readiness.
+
+A Decision Brief supports human judgment.
+
+It does not replace human judgment.
 
 ---
 
@@ -22,12 +37,17 @@ A Decision Brief must answer one question:
 
 > Am I ready to make this decision?
 
-If the answer is "No", the Decision Brief should clearly explain:
+If the answer is:
 
-- What information is missing
-- What risks remain
-- What evidence is insufficient
-- What should be prepared next
+"No"
+
+The Decision Brief should clearly explain:
+
+- What information is missing.
+- What risks remain.
+- What evidence is insufficient.
+- What assumptions require validation.
+- What should be prepared next.
 
 ---
 
@@ -35,13 +55,45 @@ If the answer is "No", the Decision Brief should clearly explain:
 
 Every Decision Brief must be:
 
-- Explainable
-- Evidence-Based
-- Actionable
-- Transparent
-- Human-Centered
-- Prioritized
-- Trustworthy
+## Explainable
+
+Users should understand how conclusions are formed.
+
+---
+
+## Evidence-Based
+
+Important findings should be supported by evidence.
+
+---
+
+## Transparent
+
+Facts, analysis, assumptions, and uncertainty must be distinguishable.
+
+---
+
+## Prioritized
+
+Attention should focus on what matters most.
+
+---
+
+## Actionable
+
+The brief should clarify what preparation is required next.
+
+---
+
+## Human-Centered
+
+Humans remain responsible for final decisions.
+
+---
+
+## Trustworthy
+
+Evidence quality and reasoning quality should be visible.
 
 ---
 
@@ -51,17 +103,17 @@ Every Decision Brief consists of the following sections.
 
 ---
 
-## 1. Metadata
+# 1. Metadata
 
-Purpose:
+## Purpose
 
-Basic information about this Decision Brief.
+Provide basic information about this Decision Brief.
 
-Fields:
+## Fields
 
 - ID
 - Title
-- Author (AI)
+- Author
 - Created Time
 - Updated Time
 - Version
@@ -70,44 +122,82 @@ Fields:
 
 ---
 
-## 2. Executive Summary
+# 2. Decision Context
 
-Purpose:
+## Purpose
 
-Provide a concise overview.
+Define the decision that this Decision Brief prepares for.
 
-Answer:
+A Decision Brief is not only about a situation.
 
-"What is happening?"
+It is about preparing a specific decision.
 
-Length:
+## Include
+
+### Decision Question
+
+What decision needs to be prepared?
+
+---
+
+### Decision Owner
+
+Who is responsible for the final decision?
+
+---
+
+### Decision Timeline
+
+When does the decision need to be made?
+
+---
+
+### Decision Impact
+
+What is the potential impact of this decision?
+
+---
+
+# 3. Executive Summary
+
+## Purpose
+
+Provide a concise overview of the current situation and decision preparation status.
+
+## Answer
+
+> What is happening and why does it matter?
+
+## Length
 
 3~10 sentences.
 
 ---
 
-## 3. Situation Assessment
+# 4. Situation Assessment
 
-Purpose:
+## Purpose
 
 Describe the current situation objectively.
 
-Include:
+## Include
 
 - Context
 - Background
 - Current status
 - Recent changes
 
+## Requirement
+
 No recommendations.
 
-Only facts.
+Only facts and observations.
 
 ---
 
-## 4. Key Findings
+# 5. Key Findings
 
-Purpose:
+## Purpose
 
 Highlight the most important discoveries.
 
@@ -115,19 +205,19 @@ Each finding should include:
 
 - Finding
 - Why it matters
-- Impact
+- Potential impact
 
 ---
 
-## 5. Priority Assessment
+# 6. Priority Assessment
 
-Purpose:
+## Purpose
 
 Identify what deserves attention first.
 
-Include:
+## Include
 
-Priority Level
+### Priority Level
 
 Possible values:
 
@@ -136,78 +226,93 @@ Possible values:
 - Medium
 - Low
 
-Reason for prioritization.
+---
+
+### Reason for Priority
+
+Explain why this issue requires attention.
 
 ---
 
-## 6. Evidence
+# 7. Evidence
 
-Purpose:
+## Purpose
 
-Support every important statement.
+Support important statements and conclusions.
 
-Evidence may include:
+## Evidence Sources May Include
 
 - Documents
 - Reports
 - Emails
-- News
+- External information
 - GitHub
-- Database
+- Databases
 - Knowledge Base
 - AI Analysis
 
+---
+
+## Requirement
+
 Every major conclusion should have supporting evidence.
+
+Evidence quality should be visible.
 
 ---
 
-## 7. Reasoning
+# 8. Reasoning
 
-Purpose:
+## Purpose
 
 Explain how conclusions were reached.
 
-Include:
+## Include
 
 - Logical reasoning
 - Assumptions
 - Dependencies
 - Alternative interpretations
 
-Reasoning should always be explainable.
+---
+
+## Requirement
+
+Reasoning should be understandable and reviewable.
+
+AADI should not provide conclusions without explanation.
 
 ---
 
-## 8. Risk Assessment
+# 9. Risk Assessment
 
-Purpose:
+## Purpose
 
-Identify uncertainty.
+Identify uncertainty before decisions are made.
 
-Include:
+## Include
 
 - Known risks
 - Unknown risks
 - Assumptions
 - Confidence impact
 
-Possible severity:
+---
 
-Critical
+## Severity Levels
 
-High
-
-Medium
-
-Low
+- Critical
+- High
+- Medium
+- Low
 
 ---
 
-## 9. Options
+# 10. Options
 
-Purpose:
+## Purpose
 
-Describe available choices.
+Describe possible choices and trade-offs.
 
 Each option should include:
 
@@ -215,101 +320,95 @@ Each option should include:
 - Advantages
 - Disadvantages
 - Risks
-- Estimated impact
-
-No final recommendation.
+- Expected impact
 
 ---
 
-## 10. Recommended Preparation
+## Requirement
 
-Purpose:
+A Decision Brief presents options.
 
-Prepare the user before making a decision.
+It does not make the final decision.
+
+---
+
+# 11. Recommended Preparation
+
+## Purpose
+
+Help users prepare before deciding.
 
 Examples:
 
-Collect additional data.
-
-Consult stakeholders.
-
-Verify assumptions.
-
-Review regulations.
-
-Run simulations.
-
-Prepare contingency plans.
+- Collect additional data.
+- Consult stakeholders.
+- Verify assumptions.
+- Review constraints.
+- Run simulations.
+- Prepare contingency plans.
 
 ---
 
-## 11. Missing Information
+# 12. Missing Information
 
-Purpose:
+## Purpose
 
-List unknown information.
+Identify remaining uncertainty.
 
 Examples:
 
-Missing documents.
-
-Incomplete data.
-
-Conflicting evidence.
-
-Unverified assumptions.
+- Missing documents.
+- Incomplete data.
+- Conflicting evidence.
+- Unverified assumptions.
 
 ---
 
-## 12. Confidence
+# 13. Confidence
 
-Purpose:
+## Purpose
 
-Measure confidence.
+Measure confidence in the analysis.
 
-Suggested scale:
+## Suggested Scale
 
 0~100%
 
-Factors:
+---
 
-Evidence quality
+## Confidence Factors
 
-Evidence quantity
-
-Reasoning consistency
-
-Information completeness
+- Evidence quality
+- Evidence quantity
+- Reasoning consistency
+- Information completeness
+- Uncertainty level
 
 ---
 
-## 13. References
+# 14. References
 
-Purpose:
+## Purpose
 
-List all information sources.
+Provide traceability.
 
-Include:
+## Include
 
-Documents
-
-URLs
-
-Reports
-
-Emails
-
-Database records
-
-Knowledge Base
-
-GitHub repositories
+- Documents
+- URLs
+- Reports
+- Emails
+- Database records
+- Knowledge Base
+- GitHub repositories
 
 ---
 
 # Quality Checklist
 
 Every Decision Brief should answer:
+
+✓ What decision is this preparing for?
 
 ✓ What happened?
 
@@ -318,6 +417,8 @@ Every Decision Brief should answer:
 ✓ What deserves attention?
 
 ✓ What evidence supports this?
+
+✓ How was the reasoning formed?
 
 ✓ What risks exist?
 
@@ -335,15 +436,20 @@ Every Decision Brief should answer:
 
 A Decision Brief is NOT:
 
-- A summary
-- A chatbot response
-- A generated article
-- A search result
-- An AI opinion
+- A summary.
+- A chatbot response.
+- A generated article.
+- A search result.
+- An AI opinion.
+- A final decision.
 
-A Decision Brief prepares decisions.
+---
 
-It does not replace them.
+A Decision Brief is:
+
+> A structured decision preparation document.
+
+It helps humans understand situations before making decisions.
 
 ---
 
@@ -351,19 +457,17 @@ It does not replace them.
 
 A successful Decision Brief should help users:
 
-Understand the situation.
+- Understand situations faster.
+- Reduce cognitive load.
+- Identify priorities.
+- Understand risks.
+- Evaluate options.
+- Prepare before decisions.
+- Improve decision readiness.
 
-Reduce cognitive load.
+---
 
-Identify priorities.
-
-Understand risks.
-
-Gain confidence.
-
-Prepare for a better decision.
-
-The final decision always belongs to people.
+The final decision always belongs to humans.
 
 ---
 
