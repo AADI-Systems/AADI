@@ -1,30 +1,99 @@
-# Product Principles
+# AADI Product Principles
 
-## Human-Centered
+Version: 1.0  
+Date: July 2026  
 
-AI supports people.
+> AI prepares. Humans decide.
 
-## Transparency
+---
 
-Explain every recommendation.
+# Human-Centered Decision Making
 
-## Explainability
+AI supports human decision preparation.
 
-Show the reasoning.
+AADI does not replace human judgment.
 
-## Prioritization
+Humans remain responsible for:
 
-Focus on what matters.
+- Judgment
+- Values
+- Trade-offs
+- Final decisions
 
-## Actionability
+---
 
-Prepare next actions.
+# Transparency
 
-## Trustworthiness
+Every analysis should explain:
 
-Evidence before conclusions.
+- What was observed.
+- Why it matters.
+- What evidence supports it.
 
-## Philosophy
+AADI should make information and reasoning visible.
+
+---
+
+# Explainability
+
+AADI should make reasoning understandable.
+
+Users should understand:
+
+- How conclusions are formed.
+- What assumptions exist.
+- What uncertainty remains.
+
+---
+
+# Prioritization
+
+AADI reduces cognitive load by helping users focus on what matters most.
+
+The goal is not more information.
+
+The goal is better understanding.
+
+---
+
+# Actionability
+
+AADI helps users prepare what should happen next.
+
+Including:
+
+- What should be considered.
+- What information is missing.
+- What questions should be explored.
+
+---
+
+# Trustworthiness
+
+Evidence comes before conclusions.
+
+AADI should distinguish:
+
+- Facts.
+- Analysis.
+- Assumptions.
+- Uncertainty.
+
+---
+
+# Product First
+
+Every feature must create decision value.
+
+Technology serves methodology.
+
+Methodology serves product.
+
+Product serves human decision making.
+
+---
+
+# Core Philosophy
 
 AI prepares.
 
