@@ -1,13 +1,31 @@
 # Decision Intelligence
 
-Version: 1.0  
+Version: 1.0.1  
 Date: July 2026  
 
 > Decision Intelligence is the discipline of preparing better decisions through structured understanding, reasoning, and risk awareness.
 
 ---
 
-# 1. Overview
+# 1. Definition
+
+Decision Intelligence is not decision automation.
+
+It is the discipline of improving human decision preparation through:
+
+- Information understanding.
+- Structured reasoning.
+- Risk awareness.
+- Option evaluation.
+- Decision readiness.
+
+Decision Intelligence helps humans understand situations before making decisions.
+
+It does not replace human judgment.
+
+---
+
+# 2. Overview
 
 Decision Intelligence is the foundation of AADI.
 
@@ -25,7 +43,7 @@ The purpose of Decision Intelligence is to help humans:
 
 ---
 
-# 2. The Difference Between Information and Decision Intelligence
+# 3. The Difference Between Information and Decision Intelligence
 
 Information answers:
 
@@ -52,7 +70,7 @@ AADI focuses on:
 
 ---
 
-# 3. AADI Decision Preparation Model
+# 4. AADI Decision Preparation Model
 
 AADI follows this workflow:
 
@@ -94,9 +112,9 @@ Human Decision
 
 ---
 
-# 4. Information Layer
+# 5. Information Layer
 
-The first stage is collecting relevant information.
+The first stage is identifying relevant information.
 
 Sources may include:
 
@@ -112,7 +130,7 @@ The objective is identifying decision-relevant information.
 
 ---
 
-# 5. Understanding Layer
+# 6. Understanding Layer
 
 Information must be transformed into understanding.
 
@@ -130,7 +148,7 @@ Move from information availability to situation awareness.
 
 ---
 
-# 6. Reasoning Layer
+# 7. Reasoning Layer
 
 Reasoning is the core capability of AADI.
 
@@ -140,6 +158,7 @@ AADI helps users explore:
 - What factors influence outcomes.
 - What assumptions exist.
 - What patterns can be identified.
+- What alternative explanations exist.
 
 Reasoning is not prediction.
 
@@ -147,7 +166,7 @@ Reasoning is structured thinking support.
 
 ---
 
-# 7. Priority Layer
+# 8. Priority Layer
 
 Not all information has equal importance.
 
@@ -161,7 +180,7 @@ Priority reduces cognitive load.
 
 ---
 
-# 8. Risk Assessment Layer
+# 9. Risk Assessment Layer
 
 Every decision contains uncertainty.
 
@@ -178,7 +197,7 @@ The goal is improving awareness before decisions.
 
 ---
 
-# 9. Option Evaluation Layer
+# 10. Option Evaluation Layer
 
 Good decisions require understanding alternatives.
 
@@ -195,7 +214,7 @@ Humans remain responsible for judgment.
 
 ---
 
-# 10. Decision Brief Generation
+# 11. Decision Brief Generation
 
 The output of the Decision Intelligence process is a Decision Brief.
 
@@ -218,7 +237,7 @@ See:
 
 ---
 
-# 11. Human-in-the-Loop Principle
+# 12. Human-in-the-Loop Principle
 
 AADI follows:
 
@@ -230,14 +249,19 @@ AI prepares
 Human decides
 
 
-AI provides:
+---
+
+## AI provides:
 
 - Structure
 - Analysis
 - Context
 - Preparation
+- Reasoning support
 
-Human provides:
+---
+
+## Human provides:
 
 - Judgment
 - Experience
@@ -246,7 +270,7 @@ Human provides:
 
 ---
 
-# 12. Decision Readiness
+# 13. Decision Readiness
 
 The final goal of AADI is not automation.
 
@@ -261,10 +285,11 @@ A user is decision-ready when they understand:
 - The risks.
 - The available options.
 - The remaining uncertainty.
+- What should be prepared next.
 
 ---
 
-# 13. What AADI Does Not Do
+# 14. What AADI Does Not Do
 
 AADI does not:
 
@@ -272,10 +297,11 @@ AADI does not:
 - Replace professional judgment.
 - Guarantee correct outcomes.
 - Remove uncertainty completely.
+- Automate human responsibility.
 
 ---
 
-# 14. Core Principles
+# 15. Core Principles
 
 ## Principle 1
 
@@ -307,7 +333,15 @@ Technology should serve decision quality.
 
 ---
 
-# 15. Future Evolution
+## Principle 6
+
+Technology is an enabler, not the product.
+
+AADI builds capabilities only when they improve decision preparation.
+
+---
+
+# 16. Future Evolution
 
 Future AADI capabilities may include:
 
